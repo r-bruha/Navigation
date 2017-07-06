@@ -1,0 +1,101 @@
+<resources>
+	<string name="applicationName">UHK Navigation</string>
+	<string name="activityMainAlertDialogTextView">%1$,d repetitions lasting %2$,d seconds\nwill take about %3$,.1f minutes</string>
+	<string name="activityMainAlertDialogButtonPositive">Process</string>
+	<string name="activityMainAlertDialogButtonNegative">Abort</string>
+	<string-array name="activityMainAlertDialogSpinnerValues">
+		<item>Nearest Neighbors</item>
+		<item>Nearest Neighbors WireLess</item>
+		<item>Nearest Neighbors BlueTooth</item>
+		<item>Nearest Neighbors Cellular (Not Implemented)</item>
+		<item>Nearest Neighbors Together (Not Implemented)</item>
+		<item>Particle Filter</item>
+		<item>Particle Filter WireLess</item>
+		<item>Particle Filter BlueTooth</item>
+		<item>Particle Filter Cellular (Not Implemented)</item>
+		<item>Particle Filter Together (Not Implemented)</item>
+		<item>Custom Filter</item>
+		<item>Custom Filter WireLess</item>
+		<item>Custom Filter BlueTooth</item>
+		<item>Custom Filter Cellular</item>
+		<item>Custom Filter Together</item>
+		<item>All of Them Together</item>
+	</string-array>
+	<string-array name="activityMainAlertDialogSpinnerKeys">
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+		<item>13</item>
+		<item>14</item>
+		<item>20</item>
+		<item>21</item>
+		<item>22</item>
+		<item>23</item>
+		<item>24</item>
+		<item>30</item>
+		<item>31</item>
+		<item>32</item>
+		<item>33</item>
+		<item>34</item>
+		<item>100</item>
+	</string-array>
+
+	<string name="taskCollectorWirelessSummary">\u0020WireLess: \u0020\u0020Current \u0020Average\n\u0020\u0020Devices:\u0020 %1$,8.2f %2$,8.2f %3$,8.2f%%\n\u0020\u0020Records:\u0020 %4$,8.2f %5$,8.2f %6$,8.2f%%\n\u0020\u0020\u0020RpS:\u0020\u0020\u0020\u0020 %7$,8.2f %8$,8.2f %9$,8.2f%%\n\u0020\u0020\u0020SpR:\u0020\u0020\u0020\u0020 %10$,8.2f %11$,8.2f %12$,8.2f%%\n\u0020\u0020Strength: %13$,8.2f %14$,8.2f %15$,8.2f%%\n\u0020\u0020Distance: %16$,8.2f %17$,8.2f %18$,8.2f%%</string>
+	<string name="taskCollectorBluetoothSummary">\u0020BlueTooth: \u0020Current \u0020Average\n\u0020\u0020Devices:\u0020 %1$,8.2f %2$,8.2f %3$,8.2f%%\n\u0020\u0020Records:\u0020 %4$,8.2f %5$,8.2f %6$,8.2f%%\n\u0020\u0020\u0020RpS:\u0020\u0020\u0020\u0020 %7$,8.2f %8$,8.2f %9$,8.2f%%\n\u0020\u0020\u0020SpR:\u0020\u0020\u0020\u0020 %10$,8.2f %11$,8.2f %12$,8.2f%%\n\u0020\u0020Strength: %13$,8.2f %14$,8.2f %15$,8.2f%%\n\u0020\u0020Distance: %16$,8.2f %17$,8.2f %18$,8.2f%%</string>
+	<string name="taskCollectorCellularSummary">\u0020Cellular: \u0020\u0020Current \u0020Average\n\u0020\u0020Devices:\u0020 %1$,8.2f %2$,8.2f %3$,8.2f%%\n\u0020\u0020Records:\u0020 %4$,8.2f %5$,8.2f %6$,8.2f%%\n\u0020\u0020\u0020RpS:\u0020\u0020\u0020\u0020 %7$,8.2f %8$,8.2f %9$,8.2f%%\n\u0020\u0020\u0020SpR:\u0020\u0020\u0020\u0020 %10$,8.2f %11$,8.2f %12$,8.2f%%\n\u0020\u0020Strength: %13$,8.2f %14$,8.2f %15$,8.2f%%\n\u0020\u0020Distance: %16$,8.2f %17$,8.2f %18$,8.2f%%</string>
+	<string name="taskCollectorSensorSummary">\u0020Sensor: \u0020\u0020\u0020\u0020Current \u0020Average\n\u0020\u0020Devices:\u0020 %1$,8.2f %2$,8.2f %3$,8.2f%%\n\u0020\u0020Records:\u0020 %4$,8.2f %5$,8.2f %6$,8.2f%%\n\u0020\u0020\u0020RpS:\u0020\u0020\u0020\u0020 %7$,8.2f %8$,8.2f %9$,8.2f%%\n\u0020\u0020\u0020SpR:\u0020\u0020\u0020\u0020 %10$,8.2f %11$,8.2f %12$,8.2f%%</string>
+
+	<string name="taskCollectorWirelessDetail">\u0020WireLess: \n\u0020\u0020SSID:\u0020\u0020\u0020 %1$s\n\u0020\u0020BSSID:\u0020\u0020 %2$s\n\u0020\u0020Records:\u0020 %3$,8.2f %4$,8.2f %5$,8.2f%%\n\u0020\u0020\u0020RpS:\u0020\u0020\u0020\u0020 %6$,8.2f %7$,8.2f %8$,8.2f%%\n\u0020\u0020\u0020SpR:\u0020\u0020\u0020\u0020 %9$,8.2f %10$,8.2f %11$,8.2f%%\n\u0020\u0020Strength: %12$,8.2f %13$,8.2f %14$,8.2f%%\n\u0020\u0020Distance: %15$,8.2f %16$,8.2f %17$,8.2f%%</string>
+	<string name="taskCollectorBluetoothDetail">\u0020BlueTooth: \n\u0020\u0020BSSID:\u0020\u0020 %1$s\n\u0020\u0020Records:\u0020 %2$,8.2f %3$,8.2f %4$,8.2f%%\n\u0020\u0020\u0020RpS:\u0020\u0020\u0020\u0020 %5$,8.2f %6$,8.2f %7$,8.2f%%\n\u0020\u0020\u0020SpR:\u0020\u0020\u0020\u0020 %8$,8.2f %9$,8.2f %10$,8.2f%%\n\u0020\u0020Strength: %11$,8.2f %12$,8.2f %13$,8.2f%%\n\u0020\u0020Distance: %14$,8.2f %15$,8.2f %16$,8.2f%%</string>
+	<string name="taskCollectorCellularDetail">\u0020Cellular: \n\u0020\u0020Cell ID: %1$,.0f\n\u0020\u0020LAC:\u0020\u0020\u0020\u0020 %2$,.0f\n\u0020\u0020Records:\u0020 %3$,8.2f %4$,8.2f %5$,8.2f%%\n\u0020\u0020\u0020RpS:\u0020\u0020\u0020\u0020 %6$,8.2f %7$,8.2f %8$,8.2f%%\n\u0020\u0020\u0020SpR:\u0020\u0020\u0020\u0020 %9$,8.2f %10$,8.2f %11$,8.2f%%\n\u0020\u0020Strength: %12$,8.2f %13$,8.2f %14$,8.2f%%\n\u0020\u0020Distance: %15$,8.2f %16$,8.2f %17$,8.2f%%</string>
+	<string name="taskCollectorSensorDetail">\u0020Sensor: \n\u0020\u0020Type:\u0020\u0020\u0020 %1$s\n\u0020\u0020Records:\u0020 %2$,8.2f %3$,8.2f %4$,8.2f%%\n\u0020\u0020\u0020RpS:\u0020\u0020\u0020\u0020 %5$,8.2f %6$,8.2f %7$,8.2f%%\n\u0020\u0020\u0020SpR:\u0020\u0020\u0020\u0020 %8$,8.2f %9$,8.2f %10$,8.2f%%</string>
+
+	<string name="taskCouchDatabaseDownloadProgressTitle">Downloading database…</string>
+	<string name="taskCouchDatabaseUploadProgressTitle">Uploading database…</string>
+	<string name="taskCouchDatabaseProgressStatus">%1$,d / %2$,d</string>
+	<string name="taskCouchDatabaseNeutralButton">Abort</string>
+
+	<string name="taskBaseFilterShowMessage">Position: %1$,d | %2$,d | %3$,.2f m</string>
+	<string name="taskParticleFilterShowMessage">Position: %1$,d | %2$,d | %3$,.2f m\nParticles: %4$,d | %5$,d | %6$,d</string>
+	<string name="taskBaseFilterShowLog">%1$s\t%2$s\t%3$d\t%4$s\t%5$d\t%6$d\t%7$s\t%8$d\t%9$d\t%10$f\t%11$s\n</string>
+
+	<string name="activityLocationTitle">F: %1$s X: %2$,d Y: %3$,d R: %4$,d</string>
+	<string name="activityLocationNotFound">We\'re sorry, but there are no records.</string>
+	<string name="activityLocationAlertDialogTitle">Do you want remove this item?</string>
+	<string name="activityLocationAlertDialogButtonPositive">Yes</string>
+	<string name="activityLocationAlertDialogButtonNegative">No</string>
+	<string name="activityLocationAlertDialogSuccess">Item was successfully removed.</string>
+
+	<string name="activityLocationListViewAdapterTextViewFingerprint">
+		FingerPrint:\n\u0020Date: %1$s\n\u0020Time: %2$s - %3$s - %4$,ds</string>
+	<string name="activityLocationListViewAdapterTextViewWireless">
+		WireLess: \u0020\u0020Current \u0020Average\n\u0020Devices:\u0020 %1$,8.2f %2$,8.2f %3$,8.2f%%\n\u0020Records:\u0020 %4$,8.2f %5$,8.2f %6$,8.2f%%\n\u0020\u0020RpS:\u0020\u0020\u0020\u0020 %7$,8.2f %8$,8.2f %9$,8.2f%%\n\u0020\u0020SpR:\u0020\u0020\u0020\u0020 %10$,8.2f %11$,8.2f %12$,8.2f%%\n\u0020Strength: %13$,8.2f %14$,8.2f %15$,8.2f%%\n\u0020Distance: %16$,8.2f %17$,8.2f %18$,8.2f%%\n\n</string>
+	<string name="activityLocationListViewAdapterTextViewBluetooth">
+		BlueTooth: \u0020Current \u0020Average\n\u0020Devices:\u0020 %1$,8.2f %2$,8.2f %3$,8.2f%%\n\u0020Records:\u0020 %4$,8.2f %5$,8.2f %6$,8.2f%%\n\u0020\u0020RpS:\u0020\u0020\u0020\u0020 %7$,8.2f %8$,8.2f %9$,8.2f%%\n\u0020\u0020SpR:\u0020\u0020\u0020\u0020 %10$,8.2f %11$,8.2f %12$,8.2f%%\n\u0020Strength: %13$,8.2f %14$,8.2f %15$,8.2f%%\n\u0020Distance: %16$,8.2f %17$,8.2f %18$,8.2f%%\n\n</string>
+	<string name="activityLocationListViewAdapterTextViewCellular">
+		Cellular: \u0020\u0020Current \u0020Average\n\u0020Devices:\u0020 %1$,8.2f %2$,8.2f %3$,8.2f%%\n\u0020Records:\u0020 %4$,8.2f %5$,8.2f %6$,8.2f%%\n\u0020\u0020RpS:\u0020\u0020\u0020\u0020 %7$,8.2f %8$,8.2f %9$,8.2f%%\n\u0020\u0020SpR:\u0020\u0020\u0020\u0020 %10$,8.2f %11$,8.2f %12$,8.2f%%\n\u0020Strength: %13$,8.2f %14$,8.2f %15$,8.2f%%\n\u0020Distance: %16$,8.2f %17$,8.2f %18$,8.2f%%\n\n</string>
+	<string name="activityLocationListViewAdapterTextViewSensor">
+		Sensor: \u0020\u0020\u0020\u0020Current \u0020Average\n\u0020Devices:\u0020 %1$,8.2f %2$,8.2f %3$,8.2f%%\n\u0020Records:\u0020 %4$,8.0f %5$,8.0f %6$,8.2f%%\n\u0020\u0020RpS:\u0020\u0020\u0020\u0020 %7$,8.2f %8$,8.2f %9$,8.2f%%\n\u0020\u0020SpR:\u0020\u0020\u0020\u0020 %10$,8.2f %11$,8.2f %12$,8.2f%%\n\n</string>
+
+	<string name="activityLocationListViewAdapterTextViewWirelessDetail">
+		WireLess:\n\u0020SSID:\u0020\u0020\u0020\u0020 %1$s\n\u0020BSSID:\u0020\u0020\u0020 %2$s\n\u0020Type:\u0020\u0020\u0020\u0020 %3$,8.2f MHz\n\u0020Records:\u0020 %4$,8.2f %5$,8.2f %6$,8.2f%%\n\u0020\u0020RpS:\u0020\u0020\u0020\u0020 %7$,8.2f %8$,8.2f %9$,8.2f%%\n\u0020\u0020SpR:\u0020\u0020\u0020\u0020 %10$,8.2f %11$,8.2f %12$,8.2f%%\n\u0020Strength: %13$,8.2f %14$,8.2f %15$,8.2f%%\n\u0020Distance: %16$,8.2f %17$,8.2f %18$,8.2f%%\n\n</string>
+	<string name="activityLocationListViewAdapterTextViewBluetoothDetail">
+		BlueTooth:\n\u0020BSSID:\u0020\u0020\u0020 %1$s\n\u0020Records:\u0020 %2$,8.2f %3$,8.2f %4$,8.2f%%\n\u0020\u0020RpS:\u0020\u0020\u0020\u0020 %5$,8.2f %6$,8.2f %7$,8.2f%%\n\u0020\u0020SpR:\u0020\u0020\u0020\u0020 %8$,8.2f %9$,8.2f %10$,8.2f%%\n\u0020Strength: %11$,8.2f %12$,8.2f %13$,8.2f%%\n\u0020Distance: %14$,8.2f %15$,8.2f %16$,8.2f%%\n\n</string>
+	<string name="activityLocationListViewAdapterTextViewCellularDetail">
+		Cellular:\n\u0020Cell ID:\u0020 %1$,.0f\n\u0020Location: %2$,.0f\n\u0020Records:\u0020 %3$,8.2f %4$,8.2f %5$,8.2f%%\n\u0020\u0020RpS:\u0020\u0020\u0020\u0020 %6$,8.2f %7$,8.2f %8$,8.2f%%\n\u0020\u0020SpR:\u0020\u0020\u0020\u0020 %9$,8.2f %10$,8.2f %11$,8.2f%%\n\u0020Strength: %12$,8.2f %13$,8.2f %14$,8.2f%%\n\u0020Distance: %15$,8.2f %16$,8.2f %17$,8.2f%%\n\n</string>
+	<string name="activityLocationListViewAdapterTextViewSensorDetail">
+		Sensor:\n\u0020Type:\u0020\u0020\u0020 %1$s\n\u0020Records:\u0020 %2$,8.2f %3$,8.2f %4$,8.2f%%\n\u0020RpS:\u0020\u0020\u0020\u0020\u0020 %5$,8.2f %6$,8.2f %7$,8.2f%%\n\u0020SpR:\u0020\u0020\u0020\u0020\u0020 %8$,8.2f %9$,8.2f %10$,8.2f%%\n\n</string>
+
+	<string name="modelFingerprintJson">{\"x\":%1$d,\"y\":%2$d,\"level\":\"%3$s\",\"user\":\"%4$s\",\"timestamp\":%5$d,\"wirelessRecords\":%6$s,\"bluetoothRecords\":%7$s,\"cellularRecords\":%8$s,\"sensorRecords\":%9$s,\"deviceRecord\":%10$s}</string>
+	<string name="modelRecordWirelessJson">{\"ssid\":\"%1$s\",\"bssid\":\"%2$s\",\"rssi\":%3$d,\"distance\":%4$f,\"frequency\":%5$d,\"channel\":%6$d,\"technology\":\"%7$s\",\"time\":%8$d}</string>
+	<string name="modelRecordBluetoothJson">{\"ssid\":\"%1$s\",\"bssid\":\"%2$s\",\"rssi\":%3$d,\"distance\":%4$f,\"time\":%5$d}</string>
+	<string name="modelRecordCellularJson">{\"cid\":\"%1$s\",\"lac\":\"%2$s\",\"psc\":\"%3$s\",\"type\":\"%4$s\",\"rssi\":%5$d,\"time\":%6$d}</string>
+	<string name="modelRecordBaseSensorJson">{\"x\":%1$f,\"y\":%2$f,\"z\":%3$f}</string>
+	<string name="modelRecordDeviceJson">{\"id\":\"%1$s\",\"board\":\"%2$s\",\"bootloader\":\"%3$s\",\"brand\":\"%4$s\",\"device\":\"%5$s\",\"display\":\"%6$s\",\"fingerprint\":\"%7$s\",\"hardware\":\"%8$s\",\"host\":\"%9$s\",\"manufacturer\":\"%10$s\",\"model\":\"%11$s\",\"product\":\"%12$s\",\"serial\":\"%13$s\",\"tags\":\"%14$s\",\"telephone\":\"%15$s\",\"type\":\"%16$s\",\"user\":\"%17$s\",\"os\":\"%18$s\",\"api\":\"%19$d\"}</string>
+
+	<string name="activityCrashTitle">An Unexpected Crash Occurred</string>
+	<string name="activityCrashEmailSend">Send Crash Report By Email</string>
+	<string name="activityCrashEmailSubject">[UHK Navigation] Crash Report</string>
+	<string name="activityCrashEmailContent">Hello,\nI\'m sending crash report.\n\nThank you for solving this problem.</string>
+	<string name="activityCrashEmailAttachment">[%1$s] This exception was generated on %2$s %3$s (Android %4$s, API %5$d) with %6$,d / %7$,d MB RAM:\n\n%8$s</string>
+</resources>

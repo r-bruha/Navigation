@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:id="@+id/activity_fingerprint_dialog_create"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+
+	<TextView
+		android:id="@+id/activityMainAlertDialogCreateTextView"
+		android:text="@string/activityMainAlertDialogTextView"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentEnd="true"
+		android:layout_alignParentTop="true"
+		android:layout_marginTop="6dp"
+		android:layout_marginLeft="6dp"
+		android:layout_marginRight="6dp"
+		android:padding="5dp"
+		android:textAlignment="center"
+		android:textAllCaps="false"
+		android:textStyle="normal|bold"/>
+
+	<SeekBar
+		android:id="@+id/activityMainAlertDialogCreateSeekBarTime"
+		style="@style/Widget.AppCompat.SeekBar.Discrete"
+		android:layout_below="@+id/activityMainAlertDialogCreateTextView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentEnd="true"
+		android:layout_marginLeft="5dp"
+		android:layout_marginRight="5dp"
+		android:max="30"
+		android:progress="6"/>
+
+	<SeekBar
+		android:id="@+id/activityMainAlertDialogCreateSeekBarDozen"
+		style="@style/Widget.AppCompat.SeekBar.Discrete"
+		android:layout_below="@+id/activityMainAlertDialogCreateSeekBarTime"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentEnd="true"
+		android:layout_marginLeft="5dp"
+		android:layout_marginRight="5dp"
+		android:max="9"
+		android:progress="0"/>
+
+	<SeekBar
+		android:id="@+id/activityMainAlertDialogCreateSeekBarUnit"
+		style="@style/Widget.AppCompat.SeekBar.Discrete"
+		android:layout_below="@+id/activityMainAlertDialogCreateSeekBarDozen"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentEnd="true"
+		android:layout_marginLeft="5dp"
+		android:layout_marginRight="5dp"
+		android:max="9"
+		android:progress="5"/>
+
+</RelativeLayout>
